@@ -10,7 +10,7 @@ public class MInhaConfiguration {
     @Bean
     public CommandLineRunner executar() {
         return args -> {
-            System.out.println("Rodando a configuracao de desenvolvimento na maionesse do lula molusculo");
+            System.out.println("Rodando a configuração");
         };
     }
    
