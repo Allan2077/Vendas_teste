@@ -12,7 +12,7 @@ public Animal cachorro() {
         return new Animal() {
             @Override
             public void fazerBarulho(){
-                System.out.println("AU au");
+                System.out.println("AU, argh");
             } 
 
         };
@@ -23,7 +23,7 @@ public Animal gato() {
         return new Animal() {
             @Override
             public void fazerBarulho(){
-                System.out.println("Miau");
+                System.out.println("Miau, miiiiiiiiiiauuuuuuuuuu");
             }
         };
     }
